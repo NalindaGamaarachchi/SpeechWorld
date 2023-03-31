@@ -3,9 +3,8 @@
 //  SpeechWorld
 //
 //  Created by Nalinda on 31/3/2023.
-//  Copyright © 2023 Cal Stephens. All rights reserved.
+//  Copyright © 2023 Nalinda Gamaarachchi. All rights reserved.
 //
-
 import UIKit
 import Foundation
 
