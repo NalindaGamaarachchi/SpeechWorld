@@ -1,7 +1,7 @@
 //  CoreSwift.swift
 //
 //  A collection of core Swift functions and classes
-//  Copyright (c) 2015 Cal Stephens. All rights reserved.
+//  Copyright © 2023 Nalinda Gamaarachchi. All rights reserved.
 //
 
 import Foundation
