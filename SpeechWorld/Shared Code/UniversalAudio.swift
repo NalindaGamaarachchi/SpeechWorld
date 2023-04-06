@@ -3,7 +3,7 @@
 //  Rhyme a Zoo
 //
 //  Created by Cal on 6/29/15.
-//  Copyright (c) 2015 Cal Stephens. All rights reserved.
+//  Copyright © 2023 Nalinda Gamaarachchi. All rights reserved.
 //
 
 import UIKit

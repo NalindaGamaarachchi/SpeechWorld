@@ -3,7 +3,7 @@
 //  PhonicsTests
 //
 //  Created by Cal on 8/10/16.
-//  Copyright © 2016 Cal Stephens. All rights reserved.
+//  Copyright © 2023 Nalinda Gamaarachchi. All rights reserved.
 //
 
 import XCTest
