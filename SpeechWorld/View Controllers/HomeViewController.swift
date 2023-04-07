@@ -26,23 +26,23 @@ class HomeViewController : InteractiveGrowViewController {
         let audioFileName: String
         let onTapBlock: ((UIViewController) -> ())?
         
-        static let alphabetLetters = Launcher(audioFileName: "alphabet letters", onTapBlock: { vc in
+        static let alphabetLetters = Launcher(audioFileName: "Alphabet letters", onTapBlock: { vc in
             LettersViewController.present(from: vc, with: .easyDifficulty)
         })
         
-        static let phonics = Launcher(audioFileName: "phonics", onTapBlock: { vc in
+        static let phonics = Launcher(audioFileName: "Sounds", onTapBlock: { vc in
             LettersViewController.present(from: vc, with: .standardDifficulty)
         })
         
-        static let prekSightWords = Launcher(audioFileName: "pre-k sight words", onTapBlock: { vc in
+        static let prekSightWords = Launcher(audioFileName: "Words", onTapBlock: { vc in
             SightWordsViewController.present(from: vc, using: PHContent.sightWordsPreK)
         })
         
-        static let kindergartenSightWords = Launcher(audioFileName: "kindergarten sight words", onTapBlock: { vc in
+        static let kindergartenSightWords = Launcher(audioFileName: "Sentence", onTapBlock: { vc in
             SightWordsViewController.present(from: vc, using: PHContent.sightWordsKindergarten)
         })
         
-        static let pigLatin = Launcher(audioFileName: "secret child stuff", onTapBlock: { vc in
+        static let pigLatin = Launcher(audioFileName: "Learn and Play", onTapBlock: { vc in
             PigLatinViewController.present(from: vc)
         })
     }

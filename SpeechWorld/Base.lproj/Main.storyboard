@@ -73,7 +73,7 @@
                                                 <rect key="frame" x="306" y="10.666666666666657" width="137.33333333333337" height="280"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-play" translatesAutoresizingMaskIntoConstraints="NO" id="tXD-R8-PsO">
-                                                        <rect key="frame" x="19.999999999999993" y="-361.66666666666669" width="117.33333333333331" height="1002.9999999999998"/>
+                                                        <rect key="frame" x="19.999999999999993" y="-361.66666666666669" width="117.33333333333331" height="1003"/>
                                                     </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -91,7 +91,7 @@
                                         <variation key="heightClass=regular-widthClass=regular" spacing="55"/>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="XHW-nE-6dh" secondAttribute="bottom" constant="20" id="EOz-ei-z1x"/>
                                     <constraint firstItem="XHW-nE-6dh" firstAttribute="centerY" secondItem="ZM9-zy-a6s" secondAttribute="centerY" id="Ezz-ID-kjM"/>
@@ -101,31 +101,9 @@
                                     <constraint firstItem="XHW-nE-6dh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ZM9-zy-a6s" secondAttribute="leading" constant="50" id="rXh-vh-V8O"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shadow-right" translatesAutoresizingMaskIntoConstraints="NO" id="zaf-r1-Gqy">
-                                <rect key="frame" x="77.333333333333329" y="47" width="9" height="294"/>
-                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6DV-0m-B50" userLabel="header">
                                 <rect key="frame" x="0.0" y="0.0" width="81.333333333333329" height="375"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient" translatesAutoresizingMaskIntoConstraints="NO" id="vfX-WC-CdO">
-                                        <rect key="frame" x="0.0" y="0.0" width="81.333333333333329" height="375"/>
-                                    </imageView>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P6H-5P-XLz">
-                                        <rect key="frame" x="0.0" y="0.0" width="81.333333333333329" height="375"/>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.050353167808219176" colorSpace="calibratedRGB"/>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.54473986710929623" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="vfX-WC-CdO" secondAttribute="bottom" id="8NG-5N-0nK"/>
-                                    <constraint firstItem="vfX-WC-CdO" firstAttribute="top" secondItem="6DV-0m-B50" secondAttribute="top" id="HES-2I-h4H"/>
-                                    <constraint firstAttribute="trailing" secondItem="P6H-5P-XLz" secondAttribute="trailing" id="QnH-zm-3Gj"/>
-                                    <constraint firstAttribute="trailing" secondItem="vfX-WC-CdO" secondAttribute="trailing" id="brK-hn-2vG"/>
-                                    <constraint firstItem="vfX-WC-CdO" firstAttribute="leading" secondItem="6DV-0m-B50" secondAttribute="leading" id="luf-mW-Ead"/>
-                                    <constraint firstAttribute="bottom" secondItem="P6H-5P-XLz" secondAttribute="bottom" id="mWC-Ls-bK9"/>
-                                    <constraint firstItem="P6H-5P-XLz" firstAttribute="leading" secondItem="6DV-0m-B50" secondAttribute="leading" id="vPN-hh-QJc"/>
-                                    <constraint firstItem="P6H-5P-XLz" firstAttribute="top" secondItem="6DV-0m-B50" secondAttribute="top" id="xFU-pa-Ifm"/>
-                                </constraints>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="0.0"/>
@@ -139,13 +117,10 @@
                             <constraint firstAttribute="bottomMargin" secondItem="ZM9-zy-a6s" secondAttribute="bottom" id="5Is-qt-VvF"/>
                             <constraint firstAttribute="trailing" secondItem="ZM9-zy-a6s" secondAttribute="trailing" id="5YB-cy-APX"/>
                             <constraint firstItem="ZM9-zy-a6s" firstAttribute="top" secondItem="rCQ-mO-5BD" secondAttribute="top" id="NJS-Ma-ALb"/>
-                            <constraint firstItem="zaf-r1-Gqy" firstAttribute="top" secondItem="rCQ-mO-5BD" secondAttribute="topMargin" id="SyS-28-N5P"/>
                             <constraint firstItem="ZM9-zy-a6s" firstAttribute="leading" secondItem="6DV-0m-B50" secondAttribute="trailing" id="Tgu-vQ-wRj"/>
                             <constraint firstItem="6DV-0m-B50" firstAttribute="top" secondItem="rCQ-mO-5BD" secondAttribute="top" id="W7B-w7-XtA"/>
-                            <constraint firstItem="egf-Se-oJ4" firstAttribute="top" secondItem="zaf-r1-Gqy" secondAttribute="bottom" id="ZqB-b7-nFZ"/>
                             <constraint firstItem="6DV-0m-B50" firstAttribute="leading" secondItem="rCQ-mO-5BD" secondAttribute="leading" id="aiS-RA-57R"/>
                             <constraint firstItem="6DV-0m-B50" firstAttribute="width" secondItem="rCQ-mO-5BD" secondAttribute="width" multiplier="0.1" id="c5Y-VS-rLv"/>
-                            <constraint firstItem="zaf-r1-Gqy" firstAttribute="leading" secondItem="6DV-0m-B50" secondAttribute="trailing" constant="-4" id="yc8-2x-1NU"/>
                         </constraints>
                     </view>
                     <connections>
@@ -167,7 +142,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kGQ-qQ-txV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1370" y="-714"/>
+            <point key="canvasLocation" x="1369.9507389162561" y="-714.39999999999998"/>
         </scene>
         <!--Letters View Controller-->
         <scene sceneID="iQk-xz-ewT">
@@ -378,7 +353,7 @@
                                         <rect key="frame" x="226" y="20" width="250" height="157.66666666666666"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="a" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWW-Mn-36k">
-                                                <rect key="frame" x="103.66666666666669" y="36.333333333333329" width="43" height="85"/>
+                                                <rect key="frame" x="103.66666666666669" y="36.333333333333329" width="43" height="85.000000000000014"/>
                                                 <fontDescription key="fontDescription" name="ComicNeue" family="Comic Neue" pointSize="85"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1183,7 +1158,7 @@
                                                     <rect key="frame" x="9.3333333333333286" y="7.6666666666666714" width="233.33333333333337" height="185.66666666666663"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Mf7-0k-TkH">
-                                                            <rect key="frame" x="10" y="20" width="213.33333333333337" height="155.66666666666663"/>
+                                                            <rect key="frame" x="10" y="20" width="213.33333333333334" height="155.66666666666666"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="brown" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2E-7n-Ucn">
                                                                     <rect key="frame" x="0.0" y="0.0" width="213.33333333333334" height="41"/>
@@ -2318,7 +2293,7 @@ My song had been longer.
                                                         <rect key="frame" x="383.33333333333331" y="0.0" width="128" height="129"/>
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coin-5" translatesAutoresizingMaskIntoConstraints="NO" id="WsU-Ju-Edz">
-                                                        <rect key="frame" x="511.33333333333343" y="0.0" width="127.66666666666669" height="129"/>
+                                                        <rect key="frame" x="511.33333333333343" y="0.0" width="127.66666666666657" height="129"/>
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" tag="8" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coin-silver-big" translatesAutoresizingMaskIntoConstraints="NO" id="pdu-AO-E1W">
                                                         <rect key="frame" x="511.33333333333343" y="129" width="130.66666666666669" height="128"/>
@@ -2495,9 +2470,9 @@ My song had been longer.
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="IPb-WX-RAl"/>
                                 <exclude reference="3qu-PQ-vue"/>
                                 <exclude reference="tcy-Ou-pS4"/>
+                                <exclude reference="IPb-WX-RAl"/>
                                 <exclude reference="54l-MX-BBE"/>
                             </mask>
                         </variation>
@@ -2543,26 +2518,7 @@ My song had been longer.
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IWr-AZ-Tys" userLabel="header">
                                 <rect key="frame" x="0.0" y="0.0" width="81.333333333333329" height="375"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient" translatesAutoresizingMaskIntoConstraints="NO" id="TZf-HM-Cx1">
-                                        <rect key="frame" x="0.0" y="0.0" width="81.333333333333329" height="375"/>
-                                    </imageView>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rV3-4D-CuH">
-                                        <rect key="frame" x="0.0" y="0.0" width="81.333333333333329" height="375"/>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.050353167810000002" colorSpace="calibratedRGB"/>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.5447398671" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="rV3-4D-CuH" secondAttribute="trailing" id="4Kf-Jd-civ"/>
-                                    <constraint firstItem="rV3-4D-CuH" firstAttribute="top" secondItem="IWr-AZ-Tys" secondAttribute="top" id="4TR-tF-LrH"/>
-                                    <constraint firstItem="TZf-HM-Cx1" firstAttribute="leading" secondItem="IWr-AZ-Tys" secondAttribute="leading" id="9Ve-Gd-9if"/>
-                                    <constraint firstAttribute="bottom" secondItem="rV3-4D-CuH" secondAttribute="bottom" id="CRc-8r-A0E"/>
-                                    <constraint firstAttribute="bottom" secondItem="TZf-HM-Cx1" secondAttribute="bottom" id="LaA-7A-dCU"/>
-                                    <constraint firstItem="TZf-HM-Cx1" firstAttribute="top" secondItem="IWr-AZ-Tys" secondAttribute="top" id="MLP-dY-WGi"/>
-                                    <constraint firstItem="rV3-4D-CuH" firstAttribute="leading" secondItem="IWr-AZ-Tys" secondAttribute="leading" id="O53-vA-7W1"/>
-                                    <constraint firstAttribute="trailing" secondItem="TZf-HM-Cx1" secondAttribute="trailing" id="zH6-fd-PYX"/>
-                                </constraints>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YFS-BV-Pe9">
                                 <rect key="frame" x="81.333333333333314" y="47" width="710.66666666666674" height="294"/>
@@ -2574,7 +2530,7 @@ My song had been longer.
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="7bH-bi-UKO" firstAttribute="centerX" secondItem="YFS-BV-Pe9" secondAttribute="centerX" id="49F-ME-YjG"/>
                                     <constraint firstItem="7bH-bi-UKO" firstAttribute="width" secondItem="YFS-BV-Pe9" secondAttribute="width" multiplier="0.5" id="CZG-gN-RDU"/>
@@ -2607,7 +2563,7 @@ My song had been longer.
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ud5-hW-UDI"/>
+        <segue reference="tf4-Vl-l65"/>
         <segue reference="PLU-mT-sCU"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -2628,7 +2584,6 @@ My song had been longer.
         <image name="coin-gold-big" width="250" height="250"/>
         <image name="coin-pile" width="633" height="492"/>
         <image name="coin-silver-big" width="250" height="250"/>
-        <image name="gradient" width="1000" height="523"/>
         <image name="hat.jpg" width="256" height="256"/>
         <image name="horn.jpg" width="186.18182373046875" height="186.18182373046875"/>
         <image name="letter-icon-a.jpg" width="192" height="256"/>
