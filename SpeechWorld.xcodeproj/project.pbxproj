@@ -2254,7 +2254,7 @@
 		85FA798C20F153EE0007D929 /* puzzle-O-OI-row0-col1.jpng in Resources */ = {isa = PBXBuildFile; fileRef = 85FA797F20F153ED0007D929 /* puzzle-O-OI-row0-col1.jpng */; };
 		85FA798D20F153EE0007D929 /* puzzle-O-OI-row3-col2.jpng in Resources */ = {isa = PBXBuildFile; fileRef = 85FA798020F153ED0007D929 /* puzzle-O-OI-row3-col2.jpng */; };
 		85FA798E20F153EE0007D929 /* puzzle-O-OI-row0-col0.jpng in Resources */ = {isa = PBXBuildFile; fileRef = 85FA798120F153ED0007D929 /* puzzle-O-OI-row0-col0.jpng */; };
-		F3E8026029E03075007DBA53 /* Alphabet letters.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3E8025929E03075007DBA53 /* Alphabet letters.mp3 */; };
+		F3E8026029E03075007DBA53 /* Alphabet letter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3E8025929E03075007DBA53 /* Alphabet letter.mp3 */; };
 		F3E8026129E03075007DBA53 /* Alphabet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3E8025A29E03075007DBA53 /* Alphabet.mp3 */; };
 		F3E8026229E03075007DBA53 /* Speech world.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3E8025B29E03075007DBA53 /* Speech world.mp3 */; };
 		F3E8026329E03075007DBA53 /* Sounds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3E8025C29E03075007DBA53 /* Sounds.mp3 */; };
@@ -4512,7 +4512,7 @@
 		85FA798020F153ED0007D929 /* puzzle-O-OI-row3-col2.jpng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "puzzle-O-OI-row3-col2.jpng"; sourceTree = "<group>"; };
 		85FA798120F153ED0007D929 /* puzzle-O-OI-row0-col0.jpng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "puzzle-O-OI-row0-col0.jpng"; sourceTree = "<group>"; };
 		F367089B29D69D0700A24593 /* SpeechWorld-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeechWorld-Bridging-Header.h"; sourceTree = "<group>"; };
-		F3E8025929E03075007DBA53 /* Alphabet letters.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alphabet letters.mp3"; sourceTree = "<group>"; };
+		F3E8025929E03075007DBA53 /* Alphabet letter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alphabet letter.mp3"; sourceTree = "<group>"; };
 		F3E8025A29E03075007DBA53 /* Alphabet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alphabet.mp3; sourceTree = "<group>"; };
 		F3E8025B29E03075007DBA53 /* Speech world.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Speech world.mp3"; sourceTree = "<group>"; };
 		F3E8025C29E03075007DBA53 /* Sounds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sounds.mp3; sourceTree = "<group>"; };
@@ -7094,7 +7094,7 @@
 		2E1464471E46F15300BD6C2C /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				F3E8025929E03075007DBA53 /* Alphabet letters.mp3 */,
+				F3E8025929E03075007DBA53 /* Alphabet letter.mp3 */,
 				F3E8025A29E03075007DBA53 /* Alphabet.mp3 */,
 				F3E8025E29E03075007DBA53 /* Learn and Play.mp3 */,
 				F3E8025F29E03075007DBA53 /* Sentence.mp3 */,
@@ -9490,7 +9490,7 @@
 				2E1465111E46F15400BD6C2C /* sound-B.mp3 in Resources */,
 				2E146A241E46F15500BD6C2C /* puzzle-N-NG-spec.json in Resources */,
 				2E4B031C1EE115EB00834D45 /* boy.jpg in Resources */,
-				F3E8026029E03075007DBA53 /* Alphabet letters.mp3 in Resources */,
+				F3E8026029E03075007DBA53 /* Alphabet letter.mp3 in Resources */,
 				2E1464DB1E46F15300BD6C2C /* puzzle-O-ew-rhyme.mp3 in Resources */,
 				2E1465391E46F15400BD6C2C /* sound-ISH.mp3 in Resources */,
 				2E4B04811EE115EC00834D45 /* sweet.jpg in Resources */,

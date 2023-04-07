@@ -26,7 +26,7 @@ class HomeViewController : InteractiveGrowViewController {
         let audioFileName: String
         let onTapBlock: ((UIViewController) -> ())?
         
-        static let alphabetLetters = Launcher(audioFileName: "Alphabet letters", onTapBlock: { vc in
+        static let alphabetLetters = Launcher(audioFileName: "Alphabet letter", onTapBlock: { vc in
             LettersViewController.present(from: vc, with: .easyDifficulty)
         })
         
