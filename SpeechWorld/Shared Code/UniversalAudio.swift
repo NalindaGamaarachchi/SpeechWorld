@@ -86,7 +86,7 @@ class UAPlayer {
         self.endAfter = endAfter
         self.endWithFade = endWithFade
         self.fadeDuration = fadeDuration
-        try! AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback, with: [])
+        try! AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback, options: [])
         
         if let path = Bundle.main.path(forResource: name, ofType: type), let data = try? Data(contentsOf: URL(fileURLWithPath: path)) {
             

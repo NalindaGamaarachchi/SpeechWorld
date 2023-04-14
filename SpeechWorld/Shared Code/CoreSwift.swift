@@ -18,17 +18,19 @@ func delay(_ delay: Double, closure: @escaping ()->()) {
 }
 
 ///play a CATransition for a UIView
-func playTransitionForView(_ view: UIView, duration: Double, transition transitionName: String, subtype: String? = nil, timingFunction: CAMediaTimingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)) {
+func playTransitionForView(_ view: UIView, duration: Double, transition transitionName: String, subtype: String? = nil, timingFunction: CAMediaTimingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)) {
     let transition = CATransition()
     transition.duration = duration
-    transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
-    transition.type = transitionName
+    transition.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
+    transition.type = CATransitionType(rawValue: transitionName)
     
-    transition.subtype = subtype
+    if let subtype = subtype {
+        transition.subtype = CATransitionSubtype(rawValue: subtype)
+    }
+    
     transition.timingFunction = timingFunction
-    view.layer.add(transition, forKey: nil)
+    view.layer.add(transition, forKey: kCATransition)
 }
-
 ///dimiss a stack of View Controllers until a desired controler is found
 func dismissController(_ controller: UIViewController, untilMatch controllerCheck: @escaping (UIViewController) -> Bool) {
     if controllerCheck(controller) {
@@ -111,7 +113,7 @@ extension UIView {
     }
     
     var frameInsetByMargins: CGRect {
-        return UIEdgeInsetsInsetRect(self.frame, layoutMargins)
+        return self.frame.inset(by: layoutMargins)
     }
     
 }
@@ -138,7 +140,7 @@ func is4S() -> Bool {
 }
 
 ///Determines the height required to display the text in the given label
-func heightForText(_ text: String, width: CGFloat, attributes: [NSAttributedStringKey : Any]?) -> CGFloat {
+func heightForText(_ text: String, width: CGFloat, attributes: [NSAttributedString.Key : Any]?) -> CGFloat {
     let context = NSStringDrawingContext()
     let size = CGSize(width: width, height: CGFloat.greatestFiniteMagnitude)
     
@@ -267,7 +269,7 @@ class UINibView : UIView {
         self.addSubview(nibView)
         
         nibView.translatesAutoresizingMaskIntoConstraints = false
-        let attributes: [NSLayoutAttribute] = [.top, .left, .right, .bottom]
+        let attributes: [NSLayoutConstraint.Attribute] = [.top, .left, .right, .bottom]
         for attribute in attributes {
             let constraint = NSLayoutConstraint(item: self, attribute: attribute, relatedBy: .equal, toItem: self.nibView, attribute: attribute, multiplier: 1.0, constant: 0.0)
             self.addConstraint(constraint)
@@ -352,7 +354,7 @@ extension UIButton {
         crossFade.toValue = newImage.cgImage
         crossFade.isRemovedOnCompletion = false
         
-        crossFade.fillMode = kCAFillModeForwards
+        crossFade.fillMode = CAMediaTimingFillMode.forwards
         imageView.layer.add(crossFade, forKey: "animateContents")
     }
     

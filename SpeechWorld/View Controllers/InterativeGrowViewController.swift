@@ -55,7 +55,7 @@ class InteractiveGrowViewController : UIViewController, UIGestureRecognizerDeleg
         touchRecognized(touch, state: .ended)
     }
     
-    fileprivate func touchRecognized(_ touch: UITouch, state: UIGestureRecognizerState) {
+    fileprivate func touchRecognized(_ touch: UITouch, state: UIGestureRecognizer.State) {
         if !self.view.isUserInteractionEnabled { return }
         
         for view in interactiveViews {
@@ -77,7 +77,7 @@ class InteractiveGrowViewController : UIViewController, UIGestureRecognizerDeleg
     
     //MARK: - View Selection
     
-    fileprivate func touchEnteredView(_ view: UIView, withState state: UIGestureRecognizerState) {
+    fileprivate func touchEnteredView(_ view: UIView, withState state: UIGestureRecognizer.State) {
         
         if !selectedViews.keys.contains(view) {
             selectedViews[view] = .growing(Date())
@@ -101,7 +101,7 @@ class InteractiveGrowViewController : UIViewController, UIGestureRecognizerDeleg
         
     }
     
-    fileprivate func touchExitedView(_ view: UIView, withState state: UIGestureRecognizerState) {
+    fileprivate func touchExitedView(_ view: UIView, withState state: UIGestureRecognizer.State) {
         
         if selectedViews.keys.contains(view) {
             
