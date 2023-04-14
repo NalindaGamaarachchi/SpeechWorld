@@ -118,11 +118,11 @@ class LetterViewController : InteractiveGrowViewController {
         if transition {
             let views: [UIView] = [letterContainer, wordsView]
             for view in views {
-                let timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+                let timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
                 
                 playTransitionForView(view,
                                       duration: 0.5,
-                                      transition: kCATransitionPush,
+                                      transition: CATransitionType.push.rawValue,
                                       subtype: animationSubtype,
                                       timingFunction: timingFunction)
             }
@@ -229,7 +229,7 @@ class LetterViewController : InteractiveGrowViewController {
         //sender.tag = 1  >>  repeat pronunciation
         
         if (sender.tag == 0) {
-            decorateForCurrentSound(withTransition: false, withAnimationDelay: false, animationSubtype: kCATransitionFade)
+            decorateForCurrentSound(withTransition: false, withAnimationDelay: false, animationSubtype: CATransitionType.fade.rawValue)
         } else if sender.tag == 1 {
             let audioInfo = sound.pronunciationTiming
             PHContent.playAudioForInfo(audioInfo)
@@ -239,12 +239,12 @@ class LetterViewController : InteractiveGrowViewController {
     
     @IBAction func previousSoundPressed(_ sender: AnyObject) {
         sound = previousSound ?? sound
-        decorateForCurrentSound(withTransition: true, animationSubtype: kCATransitionFromLeft)
+        decorateForCurrentSound(withTransition: true, animationSubtype: CATransitionSubtype.fromLeft.rawValue)
     }
     
     @IBAction func nextSoundPressed(_ sender: AnyObject) {
         sound = nextSound ?? sound
-        decorateForCurrentSound(withTransition: true, animationSubtype: kCATransitionFromRight)
+        decorateForCurrentSound(withTransition: true, animationSubtype: CATransitionSubtype.fromRight.rawValue)
     }
     
     @IBAction func openQuiz(_ sender: AnyObject) {

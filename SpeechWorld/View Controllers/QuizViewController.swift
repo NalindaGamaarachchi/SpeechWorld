@@ -212,8 +212,8 @@ class QuizViewController : InteractiveGrowViewController {
             }
             
             for view in viewsToAnimate {
-                playTransitionForView(view, duration: 0.5, transition: kCATransitionPush, subtype: kCATransitionFromTop,
-                                      timingFunction: CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut))
+                playTransitionForView(view, duration: 0.5, transition: CATransitionType.push.rawValue, subtype: CATransitionSubtype.fromTop.rawValue,
+                                      timingFunction: CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut))
             }
         }
         

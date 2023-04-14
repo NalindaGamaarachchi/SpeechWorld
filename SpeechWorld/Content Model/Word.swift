@@ -89,10 +89,10 @@ struct Word: Equatable {
             let range = (mutableWord as NSString).range(of: soundText)
             if let exlusion = explicitExclusions[wordText] {
                 if !exlusion.contains(matchIndex) {
-                    attributedWord.addAttributes([NSAttributedStringKey.foregroundColor : matchColor], range: range)
+                    attributedWord.addAttributes([NSAttributedString.Key.foregroundColor : matchColor], range: range)
                 }
             } else {
-                attributedWord.addAttributes([NSAttributedStringKey.foregroundColor : matchColor], range: range)
+                attributedWord.addAttributes([NSAttributedString.Key.foregroundColor : matchColor], range: range)
             }
             
             let replacement = String(repeating: "_", count: soundText.length)

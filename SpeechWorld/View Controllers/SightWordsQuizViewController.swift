@@ -154,9 +154,9 @@ class SightWordsQuizViewController : InteractiveGrowViewController {
     func animateTransitionToNewWord(then completion: @escaping () -> ()) {
         playTransitionForView(self.answersView,
                               duration: 0.5,
-                              transition: kCATransitionPush,
-                              subtype: kCATransitionFromRight,
-                              timingFunction: CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut))
+                              transition: CATransitionType.push.rawValue,
+                              subtype: CATransitionSubtype.fromRight.rawValue,
+                              timingFunction: CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut))
         
         Timer.scheduleAfter(0.5, addToArray: &self.timers, handler: {
             completion()
@@ -287,7 +287,7 @@ class SightWordsQuizViewController : InteractiveGrowViewController {
             coinView.alpha = 0.0
             self.view.addSubview(coinView)
             
-            self.view.bringSubview(toFront: bankButton)
+            self.view.bringSubviewToFront(bankButton)
             
             //animate coin into piggy bank
             UIView.animate(withDuration: 0.125, animations: {

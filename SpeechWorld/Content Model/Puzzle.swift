@@ -88,7 +88,7 @@ struct Puzzle {
     }
     
     static func save(image: UIImage, asPuzzleNamed puzzleName: String) {
-        let imageData = UIImagePNGRepresentation(image)
+        let imageData = image.pngData()
         let savePath = Puzzle.path(forPuzzleNamed: puzzleName)
         try? imageData?.write(to: URL(fileURLWithPath: savePath), options: [.atomic])
     }
