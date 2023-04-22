@@ -146,7 +146,7 @@ class PuzzleDetailViewController : UIViewController {
         let redHighlightColor = UIColor(hue: 1.0, saturation: 1.0, brightness: 0.73, alpha: 1.0)
         self.addHighlights(of: redHighlightColor, to: attributedText)
         rhymeText.attributedText = attributedText
-        view.bringSubview(toFront: rhymeText)
+        view.bringSubviewToFront(rhymeText)
         rhymeText.layoutIfNeeded()
     }
     

@@ -242,8 +242,8 @@ class SentencesViewController : InteractiveGrowViewController {
         
         var animationSubtype: String {
             switch(self) {
-            case .left: return kCATransitionFromRight
-            case .right: return kCATransitionFromLeft
+            case .left: return CATransitionSubtype.fromRight.rawValue
+            case .right: return CATransitionSubtype.fromLeft.rawValue
             }
         }
     }
@@ -251,9 +251,9 @@ class SentencesViewController : InteractiveGrowViewController {
     func animateContentView(direction: Direction, duration: TimeInterval) {
         playTransitionForView(self.bottomContentContainer,
                               duration: duration,
-                              transition: kCATransitionPush,
+                              transition: CATransitionType.push.rawValue,
                               subtype: direction.animationSubtype,
-                              timingFunction: CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut))
+                              timingFunction: CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut))
     }
     
     func animateImage(from origin: UIImageView, to destination: UIImageView, duration: TimeInterval) {
