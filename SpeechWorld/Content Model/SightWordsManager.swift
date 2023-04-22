@@ -18,8 +18,8 @@ class SightWordsManager {
         
         var color: UIColor {
             switch(self) {
-            case .preK: return #colorLiteral(red: 0.5109489352, green: 0.7969939907, blue: 0.6771487374, alpha: 1)
-            case .kindergarten: return #colorLiteral(red: 0.5696855614, green: 0.8092797134, blue: 0.5067765564, alpha: 1)
+            case .preK: return #colorLiteral(red: 0.9686274529, green: 0.78039217, blue: 0.3450980484, alpha: 1)
+            case .kindergarten: return #colorLiteral(red: 0.9686274529, green: 0.78039217, blue: 0.3450980484, alpha: 1)
             }
         }
         
