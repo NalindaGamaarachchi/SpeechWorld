@@ -14,8 +14,8 @@ struct Letter: Equatable {
         
         var color: UIColor {
             switch(self) {
-            case .easyDifficulty: return #colorLiteral(red: 0.5357292676, green: 0.8299978375, blue: 0.8111645962, alpha: 1)
-            case .standardDifficulty: return #colorLiteral(red: 0.4300910234, green: 0.7802823782, blue: 0.8299978375, alpha: 1)
+            case .easyDifficulty: return #colorLiteral(red: 0.9686274529, green: 0.78039217, blue: 0.3450980484, alpha: 1)
+            case .standardDifficulty: return #colorLiteral(red: 0.9764705896, green: 0.850980401, blue: 0.5490196347, alpha: 1)
             }
         }
     }
