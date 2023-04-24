@@ -69,7 +69,10 @@ class HomeViewController : InteractiveGrowViewController {
             view.alpha = 1.0
         }
         
+
         self.view.isUserInteractionEnabled = true
+        
+        
     }
     
     //MARK: - User Interaction

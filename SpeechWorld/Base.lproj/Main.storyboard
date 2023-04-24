@@ -123,6 +123,7 @@
                             <constraint firstItem="6DV-0m-B50" firstAttribute="width" secondItem="rCQ-mO-5BD" secondAttribute="width" multiplier="0.1" id="c5Y-VS-rLv"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="og5-Ca-4hM"/>
                     <connections>
                         <outlet property="alphabetLettersView" destination="yDG-3v-xWN" id="yZe-eZ-8rI"/>
                         <outlet property="contentView" destination="ZM9-zy-a6s" id="x94-Ok-Zky"/>
@@ -275,6 +276,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acM-ND-8OB" customClass="HomeButton" customModule="SpeechWorld" customModuleProvider="target">
                                         <rect key="frame" x="30" y="10" width="50" height="50"/>
                                         <state key="normal" image="button-home"/>
+                                        <connections>
+                                            <segue destination="lDx-yU-Mr0" kind="show" id="adv-fu-j5q"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3WI-Sn-iwo" userLabel="repeat">
                                         <rect key="frame" x="30" y="255" width="50" height="50"/>
@@ -323,6 +327,7 @@
                             <constraint firstItem="gIs-na-Fjw" firstAttribute="top" secondItem="5MB-GD-4CY" secondAttribute="bottom" id="zuS-c3-T6t"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="E2h-bD-41J"/>
                     <connections>
                         <outlet property="collectionView" destination="NPt-AQ-wcr" id="pB2-Pe-lPz"/>
                         <outlet property="sidebarColorView" destination="gIs-na-Fjw" id="omm-Zq-KVN"/>
@@ -332,7 +337,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2l1-j6-6jV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="688.66995073891633" y="351.19999999999999"/>
+            <point key="canvasLocation" x="688" y="174"/>
         </scene>
         <!--Letter View Controller-->
         <scene sceneID="mEB-Cn-30Y">
@@ -347,7 +352,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K0K-M8-WIl" userLabel="letter view">
-                                <rect key="frame" x="90" y="0.0" width="702" height="187.66666666666669"/>
+                                <rect key="frame" x="90" y="0.0" width="702" height="187.66666666666666"/>
                                 <subviews>
                                     <view opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PjD-fb-loW" userLabel="letter container">
                                         <rect key="frame" x="226" y="20" width="250" height="157.66666666666666"/>
@@ -610,6 +615,7 @@
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="6mv-zq-0re"/>
                     <connections>
                         <outlet property="buttonArea" destination="NHI-WY-Yf9" id="4zh-ry-WGl"/>
                         <outlet property="checkmark" destination="tKf-BJ-uKI" id="VRh-Fh-LE3"/>
@@ -855,6 +861,12 @@
                                             </mask>
                                         </variation>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7c-1x-UyX">
+                                        <rect key="frame" x="434" y="30" width="50" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="mic" catalog="system"/>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -920,6 +932,7 @@
                             <constraint firstItem="L6v-zd-q6P" firstAttribute="leading" secondItem="ReK-RK-Xhp" secondAttribute="trailing" id="zoO-IT-s5I"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="zpX-0Z-2Xb"/>
                     <connections>
                         <outlet property="fourthWord" destination="ody-ad-5QS" id="6x6-kA-M2p"/>
                         <outlet property="puzzleShadow" destination="LNH-OS-URh" id="yCH-Gc-bQq"/>
@@ -939,7 +952,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dwm-5r-PgM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="320.68965517241378" y="2242.4000000000001"/>
+            <point key="canvasLocation" x="319.95073891625617" y="2242.4000000000001"/>
         </scene>
         <!--Puzzle Collection View Controller-->
         <scene sceneID="ex0-P0-ht6">
@@ -1091,6 +1104,7 @@
                             <constraint firstAttribute="trailing" secondItem="Ecw-ac-YLi" secondAttribute="trailing" id="tER-Tn-2ZT"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="6z8-oZ-U8f"/>
                     <connections>
                         <outlet property="buttonArea" destination="053-Wl-WFQ" id="dbU-cS-f2M"/>
                         <outlet property="collectionView" destination="Ecw-ac-YLi" id="XtL-d2-XsY"/>
@@ -1119,6 +1133,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUb-GG-Cvx" customClass="HomeButton" customModule="SpeechWorld" customModuleProvider="target">
                                         <rect key="frame" x="30" y="10" width="50" height="50"/>
                                         <state key="normal" image="button-home"/>
+                                        <connections>
+                                            <segue destination="lDx-yU-Mr0" kind="show" id="Tg1-ia-KLC"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4A-NI-5GZ" userLabel="repeat">
                                         <rect key="frame" x="30" y="315" width="50" height="50"/>
@@ -1255,6 +1272,7 @@
                             <constraint firstItem="LUb-GG-Cvx" firstAttribute="leading" secondItem="0KA-Vs-hJ6" secondAttribute="leadingMargin" constant="10" id="wID-uw-bvw"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="b7j-K4-ZLb"/>
                     <connections>
                         <outlet property="collectionView" destination="L4d-wV-KUo" id="I3i-mw-33J"/>
                         <outlet property="sidebarColorView" destination="HGT-8Y-TWv" id="Qc3-CM-nMu"/>
@@ -1264,7 +1282,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Km4-IR-5ay" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1984.729064039409" y="352.80000000000001"/>
+            <point key="canvasLocation" x="1971" y="174"/>
         </scene>
         <!--Sentences View Controller-->
         <scene sceneID="ZmO-DG-peg">
@@ -1563,6 +1581,7 @@
                             <constraint firstItem="c3J-gO-vNE" firstAttribute="top" secondItem="tgi-HU-Hnc" secondAttribute="bottom" id="wWB-Yl-khM"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="I8c-5N-rHH"/>
                     <connections>
                         <outlet property="bottomContentContainer" destination="c3J-gO-vNE" id="ula-GL-yVj"/>
                         <outlet property="firstSentenceImageView" destination="CEl-cd-2cR" id="aOJ-UF-74v"/>
@@ -1628,6 +1647,7 @@
                             <constraint firstItem="q4r-Ro-kLT" firstAttribute="centerX" secondItem="Llb-6B-fFz" secondAttribute="centerX" id="ndI-Zo-vk3"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="l4C-gF-uap"/>
                     <connections>
                         <outlet property="contentView" destination="q4r-Ro-kLT" id="Fee-eT-7TU"/>
                     </connections>
@@ -1923,6 +1943,7 @@
                             <constraint firstAttribute="trailing" secondItem="p7j-Qh-1PD" secondAttribute="trailing" id="xu5-FF-c2E"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="joL-2e-hCB"/>
                     <connections>
                         <outlet property="answersView" destination="7mR-xa-7RM" id="oIV-OZ-uz9"/>
                         <outlet property="bankButton" destination="B1d-Sd-vlA" id="e9a-GG-gfq"/>
@@ -2090,6 +2111,7 @@ My song had been longer.
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="r1M-tS-uq8"/>
                     <connections>
                         <outlet property="backButton" destination="O8F-c3-o0I" id="Uu3-CZ-ehZ"/>
                         <outlet property="bankButton" destination="iq3-AU-ZFe" id="VkY-Cy-LTT"/>
@@ -2470,13 +2492,14 @@ My song had been longer.
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="IPb-WX-RAl"/>
                                 <exclude reference="3qu-PQ-vue"/>
                                 <exclude reference="tcy-Ou-pS4"/>
-                                <exclude reference="IPb-WX-RAl"/>
                                 <exclude reference="54l-MX-BBE"/>
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="uD9-vg-zsF"/>
                     <connections>
                         <outlet property="availableCoinsArea" destination="6aF-ah-Wgs" id="XUD-ML-lMo"/>
                         <outlet property="availableCoinsView" destination="4yx-ax-QDm" id="2Lm-SE-Wej"/>
@@ -2553,6 +2576,7 @@ My song had been longer.
                             <constraint firstItem="YFS-BV-Pe9" firstAttribute="top" secondItem="ehL-nT-HcQ" secondAttribute="topMargin" id="m5M-Ka-oaA"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="9l0-dS-k2C"/>
                     <connections>
                         <segue destination="lDx-yU-Mr0" kind="show" identifier="launch main screen" id="WGG-Zs-lzg"/>
                     </connections>
@@ -2563,8 +2587,9 @@ My song had been longer.
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="tf4-Vl-l65"/>
+        <segue reference="ud5-hW-UDI"/>
         <segue reference="PLU-mT-sCU"/>
+        <segue reference="Tg1-ia-KLC"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="baby.jpg" width="21.719999313354492" height="30.719999313354492"/>
@@ -2595,6 +2620,7 @@ My song had been longer.
         <image name="logo-sentence" width="502.66665649414062" height="502.66665649414062"/>
         <image name="logo-sounds" width="502.66665649414062" height="502.66665649414062"/>
         <image name="logo-words" width="502.66665649414062" height="502.66665649414062"/>
+        <image name="mic" catalog="system" width="110" height="128"/>
         <image name="shadow-right" width="9" height="598"/>
         <image name="spider.jpg" width="14.159999847412109" height="30.719999313354492"/>
         <image name="yo-yo.jpg" width="256" height="256"/>
