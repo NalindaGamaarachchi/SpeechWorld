@@ -1495,7 +1495,6 @@
 		2E3D3FF71EF3B1FB00AA0258 /* easy-letter-icon-y.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E3D3FDD1EF3B1FB00AA0258 /* easy-letter-icon-y.jpg */; };
 		2E3D3FF81EF3B1FB00AA0258 /* easy-letter-icon-z.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E3D3FDE1EF3B1FB00AA0258 /* easy-letter-icon-z.jpg */; };
 		2E482FC91EFF54A000A41012 /* BasicLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E482FC81EFF54A000A41012 /* BasicLabelView.swift */; };
-		2E482FCB1EFF573600A41012 /* PigLatinLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E482FCA1EFF573600A41012 /* PigLatinLabelView.swift */; };
 		2E482FCD1EFF5B2F00A41012 /* PigLatinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E482FCC1EFF5B2F00A41012 /* PigLatinViewController.swift */; };
 		2E482FCF1EFF5BEE00A41012 /* BasicImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E482FCE1EFF5BEE00A41012 /* BasicImageView.swift */; };
 		2E4B00A51ED92EE300834D45 /* HomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4B00A41ED92EE300834D45 /* HomeButton.swift */; };
@@ -2253,6 +2252,13 @@
 		85FA798C20F153EE0007D929 /* puzzle-O-OI-row0-col1.jpng in Resources */ = {isa = PBXBuildFile; fileRef = 85FA797F20F153ED0007D929 /* puzzle-O-OI-row0-col1.jpng */; };
 		85FA798D20F153EE0007D929 /* puzzle-O-OI-row3-col2.jpng in Resources */ = {isa = PBXBuildFile; fileRef = 85FA798020F153ED0007D929 /* puzzle-O-OI-row3-col2.jpng */; };
 		85FA798E20F153EE0007D929 /* puzzle-O-OI-row0-col0.jpng in Resources */ = {isa = PBXBuildFile; fileRef = 85FA798120F153ED0007D929 /* puzzle-O-OI-row0-col0.jpng */; };
+		F3BC2D8829F7CAA30067C1DF /* StutterDetectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC2D8129F7CAA20067C1DF /* StutterDetectorView.swift */; };
+		F3BC2D8929F7CAA30067C1DF /* StutterDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F3BC2D8229F7CAA20067C1DF /* StutterDetector.mlmodel */; };
+		F3BC2D8A29F7CAA30067C1DF /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC2D8329F7CAA30067C1DF /* AudioEngine.swift */; };
+		F3BC2D8B29F7CAA30067C1DF /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC2D8429F7CAA30067C1DF /* RecordView.swift */; };
+		F3BC2D8C29F7CAA30067C1DF /* RecordButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC2D8529F7CAA30067C1DF /* RecordButtonView.swift */; };
+		F3BC2D8D29F7CAA30067C1DF /* Color-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC2D8629F7CAA30067C1DF /* Color-Extensions.swift */; };
+		F3BC2D8E29F7CAA30067C1DF /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC2D8729F7CAA30067C1DF /* SpeechRecognizer.swift */; };
 		F3E8026029E03075007DBA53 /* Alphabet letter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3E8025929E03075007DBA53 /* Alphabet letter.mp3 */; };
 		F3E8026129E03075007DBA53 /* Alphabet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3E8025A29E03075007DBA53 /* Alphabet.mp3 */; };
 		F3E8026229E03075007DBA53 /* Speech world.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3E8025B29E03075007DBA53 /* Speech world.mp3 */; };
@@ -3754,7 +3760,6 @@
 		2E3D3FDD1EF3B1FB00AA0258 /* easy-letter-icon-y.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "easy-letter-icon-y.jpg"; sourceTree = "<group>"; };
 		2E3D3FDE1EF3B1FB00AA0258 /* easy-letter-icon-z.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "easy-letter-icon-z.jpg"; sourceTree = "<group>"; };
 		2E482FC81EFF54A000A41012 /* BasicLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicLabelView.swift; sourceTree = "<group>"; };
-		2E482FCA1EFF573600A41012 /* PigLatinLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PigLatinLabelView.swift; sourceTree = "<group>"; };
 		2E482FCC1EFF5B2F00A41012 /* PigLatinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PigLatinViewController.swift; sourceTree = "<group>"; };
 		2E482FCE1EFF5BEE00A41012 /* BasicImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicImageView.swift; sourceTree = "<group>"; };
 		2E4B00A41ED92EE300834D45 /* HomeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeButton.swift; sourceTree = "<group>"; };
@@ -4510,6 +4515,13 @@
 		85FA798020F153ED0007D929 /* puzzle-O-OI-row3-col2.jpng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "puzzle-O-OI-row3-col2.jpng"; sourceTree = "<group>"; };
 		85FA798120F153ED0007D929 /* puzzle-O-OI-row0-col0.jpng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "puzzle-O-OI-row0-col0.jpng"; sourceTree = "<group>"; };
 		F367089B29D69D0700A24593 /* SpeechWorld-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeechWorld-Bridging-Header.h"; sourceTree = "<group>"; };
+		F3BC2D8129F7CAA20067C1DF /* StutterDetectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StutterDetectorView.swift; sourceTree = "<group>"; };
+		F3BC2D8229F7CAA20067C1DF /* StutterDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = StutterDetector.mlmodel; sourceTree = "<group>"; };
+		F3BC2D8329F7CAA30067C1DF /* AudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		F3BC2D8429F7CAA30067C1DF /* RecordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		F3BC2D8529F7CAA30067C1DF /* RecordButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButtonView.swift; sourceTree = "<group>"; };
+		F3BC2D8629F7CAA30067C1DF /* Color-Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color-Extensions.swift"; sourceTree = "<group>"; };
+		F3BC2D8729F7CAA30067C1DF /* SpeechRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 		F3E8025929E03075007DBA53 /* Alphabet letter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alphabet letter.mp3"; sourceTree = "<group>"; };
 		F3E8025A29E03075007DBA53 /* Alphabet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alphabet.mp3; sourceTree = "<group>"; };
 		F3E8025B29E03075007DBA53 /* Speech world.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Speech world.mp3"; sourceTree = "<group>"; };
@@ -7384,6 +7396,7 @@
 		2E6DE2831D639A1B00978DD6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F3BC2D8029F7CA8F0067C1DF /* VoiceRecognition */,
 				2E6DE7601D63A90100978DD6 /* PuzzleView.swift */,
 				2E871C291E124F0900B6313D /* ProgressBar.swift */,
 				2E6DE2851D639A1B00978DD6 /* WordView.swift */,
@@ -7392,7 +7405,6 @@
 				2E4B00A41ED92EE300834D45 /* HomeButton.swift */,
 				2E482FC81EFF54A000A41012 /* BasicLabelView.swift */,
 				2E482FCE1EFF5BEE00A41012 /* BasicImageView.swift */,
-				2E482FCA1EFF573600A41012 /* PigLatinLabelView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -7722,6 +7734,20 @@
 				85FA798120F153ED0007D929 /* puzzle-O-OI-row0-col0.jpng */,
 			);
 			path = "puzzle-O-OI";
+			sourceTree = "<group>";
+		};
+		F3BC2D8029F7CA8F0067C1DF /* VoiceRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				F3BC2D8329F7CAA30067C1DF /* AudioEngine.swift */,
+				F3BC2D8629F7CAA30067C1DF /* Color-Extensions.swift */,
+				F3BC2D8529F7CAA30067C1DF /* RecordButtonView.swift */,
+				F3BC2D8429F7CAA30067C1DF /* RecordView.swift */,
+				F3BC2D8729F7CAA30067C1DF /* SpeechRecognizer.swift */,
+				F3BC2D8229F7CAA20067C1DF /* StutterDetector.mlmodel */,
+				F3BC2D8129F7CAA20067C1DF /* StutterDetectorView.swift */,
+			);
+			path = VoiceRecognition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -10026,20 +10052,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EAAF06F1ED5545E00D2B13B /* SightWordsQuizViewController.swift in Sources */,
+				F3BC2D8C29F7CAA30067C1DF /* RecordButtonView.swift in Sources */,
 				2EECD5671E0BBA4800C667DE /* PuzzleProgress.swift in Sources */,
 				2E73FFDE1E2B292C0055AAAD /* SelectCornerRadiusView.swift in Sources */,
 				2E6DE2871D639A1B00978DD6 /* AppDelegate.swift in Sources */,
+				F3BC2D8E29F7CAA30067C1DF /* SpeechRecognizer.swift in Sources */,
 				2E6DE74A1D639A1C00978DD6 /* PHContent.swift in Sources */,
 				2E6DE75F1D63A06900978DD6 /* PuzzlePiece.swift in Sources */,
 				2EBB18AC1ED2BCFB0078D951 /* SentencesViewController.swift in Sources */,
 				2E5B33AB1E21FB1C00E4B923 /* PuzzleCollectionViewController.swift in Sources */,
 				2E6DE7541D639A1C00978DD6 /* InterativeGrowViewController.swift in Sources */,
 				2E482FC91EFF54A000A41012 /* BasicLabelView.swift in Sources */,
+				F3BC2D8829F7CAA30067C1DF /* StutterDetectorView.swift in Sources */,
 				2E482FCF1EFF5BEE00A41012 /* BasicImageView.swift in Sources */,
 				2EECD5661E0BBA4800C667DE /* Player.swift in Sources */,
 				2E6DE7501D639A1C00978DD6 /* UniversalAudio.swift in Sources */,
 				2EE55D681F06191C0039852F /* LaunchViewController.swift in Sources */,
 				2E0D53F81ED267D900EF3706 /* SightWord.swift in Sources */,
+				F3BC2D8D29F7CAA30067C1DF /* Color-Extensions.swift in Sources */,
 				2E6DE74E1D639A1C00978DD6 /* CoreSwift.swift in Sources */,
 				2EECD56A1E0BBF5F00C667DE /* NSCoding+Key.swift in Sources */,
 				2E275F3A1E08DCD400B16C5E /* PuzzleDetailViewController.swift in Sources */,
@@ -10052,15 +10082,17 @@
 				2E482FCD1EFF5B2F00A41012 /* PigLatinViewController.swift in Sources */,
 				2E80484C1ED29DEA001F4EF6 /* SightWordsViewController.swift in Sources */,
 				2E6DE7531D639A1C00978DD6 /* HomeViewController.swift in Sources */,
+				F3BC2D8929F7CAA30067C1DF /* StutterDetector.mlmodel in Sources */,
 				2E0D53F61ED2670F00EF3706 /* SightWordsManager.swift in Sources */,
 				2E6DE7551D639A1C00978DD6 /* LettersViewController.swift in Sources */,
+				F3BC2D8B29F7CAA30067C1DF /* RecordView.swift in Sources */,
 				2E6DE7581D639A1C00978DD6 /* QuizViewController.swift in Sources */,
 				2E6DE74F1D639A1C00978DD6 /* LongestCommonSubsequence.swift in Sources */,
 				2E871C2A1E124F0900B6313D /* ProgressBar.swift in Sources */,
 				2E383FC11E07454A00128351 /* JPNG.m in Sources */,
 				2E6DE75A1D639A1C00978DD6 /* WordView.swift in Sources */,
 				2E6DE7561D639A1C00978DD6 /* LetterViewController.swift in Sources */,
-				2E482FCB1EFF573600A41012 /* PigLatinLabelView.swift in Sources */,
+				F3BC2D8A29F7CAA30067C1DF /* AudioEngine.swift in Sources */,
 				2E0D53FC1ED2682B00EF3706 /* Sentence.swift in Sources */,
 				2E6DE74B1D639A1C00978DD6 /* Sound.swift in Sources */,
 			);
@@ -10236,7 +10268,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = Z2TMRX3MRV;
 				INFOPLIST_FILE = SpeechWorld/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hearatale.SpeechWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -10258,7 +10290,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = Z2TMRX3MRV;
 				INFOPLIST_FILE = SpeechWorld/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hearatale.SpeechWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";

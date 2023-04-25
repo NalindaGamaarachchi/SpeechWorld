@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -1616,45 +1617,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q4r-Ro-kLT">
-                                <rect key="frame" x="81.333333333333314" y="37.666666666666657" width="649.33333333333348" height="300"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="play" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZO-zZ-jnw">
-                                        <rect key="frame" x="287.66666666666669" y="130" width="74" height="40"/>
-                                        <fontDescription key="fontDescription" name="ComicNeue-Bold" family="Comic Neue" pointSize="40"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="MZO-zZ-jnw" firstAttribute="centerX" secondItem="q4r-Ro-kLT" secondAttribute="centerX" id="Ddk-ts-Wsf"/>
-                                    <constraint firstItem="MZO-zZ-jnw" firstAttribute="centerY" secondItem="q4r-Ro-kLT" secondAttribute="centerY" id="gdg-id-2nb"/>
-                                </constraints>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47X-7R-BAy" customClass="HomeButton" customModule="SpeechWorld" customModuleProvider="target">
                                 <rect key="frame" x="30" y="10" width="50" height="50"/>
                                 <state key="normal" image="button-home"/>
+                                <connections>
+                                    <segue destination="lDx-yU-Mr0" kind="show" id="Ygf-QW-fcc"/>
+                                </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l4Y-YJ-omg">
+                                <rect key="frame" x="135" y="8" width="677" height="359"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="q4r-Ro-kLT" firstAttribute="height" secondItem="Llb-6B-fFz" secondAttribute="height" multiplier="0.8" id="0Om-Y1-1LQ"/>
-                            <constraint firstItem="q4r-Ro-kLT" firstAttribute="width" secondItem="Llb-6B-fFz" secondAttribute="width" multiplier="0.8" id="KSN-8w-Yuv"/>
                             <constraint firstItem="47X-7R-BAy" firstAttribute="leading" secondItem="Llb-6B-fFz" secondAttribute="leadingMargin" constant="10" id="Sc9-jI-Mbs"/>
-                            <constraint firstItem="q4r-Ro-kLT" firstAttribute="centerY" secondItem="Llb-6B-fFz" secondAttribute="centerY" id="dWi-hT-H8T"/>
                             <constraint firstItem="47X-7R-BAy" firstAttribute="top" secondItem="Llb-6B-fFz" secondAttribute="top" constant="10" id="kir-bi-kYD"/>
-                            <constraint firstItem="q4r-Ro-kLT" firstAttribute="centerX" secondItem="Llb-6B-fFz" secondAttribute="centerX" id="ndI-Zo-vk3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="l4C-gF-uap"/>
                     <connections>
-                        <outlet property="contentView" destination="q4r-Ro-kLT" id="Fee-eT-7TU"/>
+                        <outlet property="theContainer" destination="l4Y-YJ-omg" id="Mb9-Ga-Ymx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T3C-vG-Z6J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2428" y="-714"/>
+            <point key="canvasLocation" x="2426.6009852216748" y="-714.39999999999998"/>
         </scene>
         <!--Sight Words Quiz View Controller-->
         <scene sceneID="nBH-0Z-8yr">
@@ -2589,7 +2578,7 @@ My song had been longer.
     <inferredMetricsTieBreakers>
         <segue reference="ud5-hW-UDI"/>
         <segue reference="PLU-mT-sCU"/>
-        <segue reference="Tg1-ia-KLC"/>
+        <segue reference="Ygf-QW-fcc"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="baby.jpg" width="21.719999313354492" height="30.719999313354492"/>
@@ -2625,5 +2614,8 @@ My song had been longer.
         <image name="spider.jpg" width="14.159999847412109" height="30.719999313354492"/>
         <image name="yo-yo.jpg" width="256" height="256"/>
         <image name="zebra.jpg" width="256" height="256"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

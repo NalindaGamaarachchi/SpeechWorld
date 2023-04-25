@@ -53,5 +53,9 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Audio is recorded to analyze and transcribe your speech. Audio recordings are discarded after transcription.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Speech Recognition is required to transcribe your voice.</string>
 </dict>
 </plist>
