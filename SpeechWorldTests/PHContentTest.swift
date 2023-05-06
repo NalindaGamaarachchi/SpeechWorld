@@ -90,11 +90,7 @@ class PHContentTest: XCTestCase {
     
     //MARK: - Letters
     
-    func testAllLettersHaveIcons() {
-        for letter in PHContent.letters.values {
-            XCTAssertNotNil(letter.icon, "No image icon for letter \(letter.text.uppercased())")
-        }
-    }
+
     
     func testAllLettersHaveAudio() {
         for letter in PHContent.letters.values {

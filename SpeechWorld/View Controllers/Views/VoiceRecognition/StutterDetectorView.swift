@@ -16,18 +16,20 @@ struct StutterDetectorView: View {
     @State private var isStuttering = false
     @State private var identifier = ""
     
+    
     var body: some View {
         NavigationView {
             VStack {
                 VStack {
                     HStack {
-                        Text("\(Image(systemName: "exclamationmark.triangle")) Stutter Caught")
+                        Text("\(Image(systemName: "exclamationmark.triangle"))  Caught")
                             .bold()
                     }
                     .font(.title3)
                     .foregroundColor(.red)
                     .opacity(isStuttering ? 1 : 0.1)
                     .padding(.top)
+                    
                     
                     let padding: CGFloat = 10
                     
@@ -74,7 +76,7 @@ struct StutterDetectorView: View {
                     }
                 }
             }
-            .navigationTitle("StutterAI")
+            .navigationTitle("Speechworlds")
             .navigationBarTitleDisplayMode(.inline)
         }
     }

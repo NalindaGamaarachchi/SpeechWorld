@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "00BFC06F-B8E5-4198-8D4A-A913E08E7D51": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        },
+        "4F43E6B6-32EB-4697-BADB-06E44C7EC47E": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "StutterDetector.mlmodel",
+            "path": "com.apple.CoreML/StutterDetector.mlmodel"
+        },
+        "F02B5A22-79D6-4985-9776-6DC5F43BC7F6": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        }
+    },
+    "rootModelIdentifier": "4F43E6B6-32EB-4697-BADB-06E44C7EC47E"
+}

@@ -1,0 +1,13 @@
+{
+  "MLModelVersionStringKey" : "--",
+  "MLModelDescriptionKey" : "--",
+  "MLModelCreatorDefinedKey" : {
+    "com.apple.createml.version" : "11.6.0",
+    "com.apple.createml.app.tag" : "78.5",
+    "com.apple.coreml.model.preview.type" : "soundClassifier",
+    "sampleRate" : "16000",
+    "com.apple.createml.app.version" : "3.0"
+  },
+  "MLModelAuthorKey" : "Nalinda Gamaarachchi",
+  "MLModelLicenseKey" : "--"
+}
