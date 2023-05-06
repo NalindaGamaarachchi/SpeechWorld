@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -2252,8 +2252,20 @@
 		85FA798C20F153EE0007D929 /* puzzle-O-OI-row0-col1.jpng in Resources */ = {isa = PBXBuildFile; fileRef = 85FA797F20F153ED0007D929 /* puzzle-O-OI-row0-col1.jpng */; };
 		85FA798D20F153EE0007D929 /* puzzle-O-OI-row3-col2.jpng in Resources */ = {isa = PBXBuildFile; fileRef = 85FA798020F153ED0007D929 /* puzzle-O-OI-row3-col2.jpng */; };
 		85FA798E20F153EE0007D929 /* puzzle-O-OI-row0-col0.jpng in Resources */ = {isa = PBXBuildFile; fileRef = 85FA798120F153ED0007D929 /* puzzle-O-OI-row0-col0.jpng */; };
+		F334AF852A0507560046C0EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F334AF842A0507560046C0EE /* GoogleService-Info.plist */; };
+		F334AF872A0509310046C0EE /* StutterDetector.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = F334AF862A0509310046C0EE /* StutterDetector.mlpackage */; };
+		F334AF8A2A050ABF0046C0EE /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F334AF892A050ABF0046C0EE /* FirebaseAnalytics */; };
+		F334AF8C2A050ABF0046C0EE /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F334AF8B2A050ABF0046C0EE /* FirebaseAnalyticsSwift */; };
+		F334AF8E2A050ABF0046C0EE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F334AF8D2A050ABF0046C0EE /* FirebaseAuth */; };
+		F334AF902A050ABF0046C0EE /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F334AF8F2A050ABF0046C0EE /* FirebaseAuthCombine-Community */; };
+		F334AF922A050ABF0046C0EE /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F334AF912A050ABF0046C0EE /* FirebaseDatabase */; };
+		F334AF942A050ABF0046C0EE /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F334AF932A050ABF0046C0EE /* FirebaseDatabaseSwift */; };
+		F334AF962A050ABF0046C0EE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F334AF952A050ABF0046C0EE /* FirebaseFirestore */; };
+		F334AF982A050ABF0046C0EE /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F334AF972A050ABF0046C0EE /* FirebaseFirestoreCombine-Community */; };
+		F334AF9A2A050ABF0046C0EE /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F334AF992A050ABF0046C0EE /* FirebaseFirestoreSwift */; };
+		F334AF9C2A050ABF0046C0EE /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F334AF9B2A050ABF0046C0EE /* FirebaseStorage */; };
+		F334AF9E2A050ABF0046C0EE /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F334AF9D2A050ABF0046C0EE /* FirebaseStorageCombine-Community */; };
 		F3BC2D8829F7CAA30067C1DF /* StutterDetectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC2D8129F7CAA20067C1DF /* StutterDetectorView.swift */; };
-		F3BC2D8929F7CAA30067C1DF /* StutterDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F3BC2D8229F7CAA20067C1DF /* StutterDetector.mlmodel */; };
 		F3BC2D8A29F7CAA30067C1DF /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC2D8329F7CAA30067C1DF /* AudioEngine.swift */; };
 		F3BC2D8B29F7CAA30067C1DF /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC2D8429F7CAA30067C1DF /* RecordView.swift */; };
 		F3BC2D8C29F7CAA30067C1DF /* RecordButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC2D8529F7CAA30067C1DF /* RecordButtonView.swift */; };
@@ -4514,9 +4526,10 @@
 		85FA797F20F153ED0007D929 /* puzzle-O-OI-row0-col1.jpng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "puzzle-O-OI-row0-col1.jpng"; sourceTree = "<group>"; };
 		85FA798020F153ED0007D929 /* puzzle-O-OI-row3-col2.jpng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "puzzle-O-OI-row3-col2.jpng"; sourceTree = "<group>"; };
 		85FA798120F153ED0007D929 /* puzzle-O-OI-row0-col0.jpng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "puzzle-O-OI-row0-col0.jpng"; sourceTree = "<group>"; };
+		F334AF842A0507560046C0EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F334AF862A0509310046C0EE /* StutterDetector.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = StutterDetector.mlpackage; sourceTree = "<group>"; };
 		F367089B29D69D0700A24593 /* SpeechWorld-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeechWorld-Bridging-Header.h"; sourceTree = "<group>"; };
 		F3BC2D8129F7CAA20067C1DF /* StutterDetectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StutterDetectorView.swift; sourceTree = "<group>"; };
-		F3BC2D8229F7CAA20067C1DF /* StutterDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = StutterDetector.mlmodel; sourceTree = "<group>"; };
 		F3BC2D8329F7CAA30067C1DF /* AudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
 		F3BC2D8429F7CAA30067C1DF /* RecordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		F3BC2D8529F7CAA30067C1DF /* RecordButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButtonView.swift; sourceTree = "<group>"; };
@@ -4536,7 +4549,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F334AF942A050ABF0046C0EE /* FirebaseDatabaseSwift in Frameworks */,
+				F334AF922A050ABF0046C0EE /* FirebaseDatabase in Frameworks */,
+				F334AF8C2A050ABF0046C0EE /* FirebaseAnalyticsSwift in Frameworks */,
+				F334AF982A050ABF0046C0EE /* FirebaseFirestoreCombine-Community in Frameworks */,
+				F334AF8A2A050ABF0046C0EE /* FirebaseAnalytics in Frameworks */,
+				F334AF9A2A050ABF0046C0EE /* FirebaseFirestoreSwift in Frameworks */,
 				2EECD55C1E0BB95E00C667DE /* CoreData.framework in Frameworks */,
+				F334AF962A050ABF0046C0EE /* FirebaseFirestore in Frameworks */,
+				F334AF9C2A050ABF0046C0EE /* FirebaseStorage in Frameworks */,
+				F334AF8E2A050ABF0046C0EE /* FirebaseAuth in Frameworks */,
+				F334AF9E2A050ABF0046C0EE /* FirebaseStorageCombine-Community in Frameworks */,
+				F334AF902A050ABF0046C0EE /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7317,6 +7341,7 @@
 		2E6DDDA51D639A1600978DD6 /* SpeechWorld */ = {
 			isa = PBXGroup;
 			children = (
+				F334AF842A0507560046C0EE /* GoogleService-Info.plist */,
 				2E1459F01E46F14E00BD6C2C /* Assets */,
 				2E6DDDAF1D639A1600978DD6 /* Content Model */,
 				2E6DE27C1D639A1B00978DD6 /* View Controllers */,
@@ -7744,7 +7769,7 @@
 				F3BC2D8529F7CAA30067C1DF /* RecordButtonView.swift */,
 				F3BC2D8429F7CAA30067C1DF /* RecordView.swift */,
 				F3BC2D8729F7CAA30067C1DF /* SpeechRecognizer.swift */,
-				F3BC2D8229F7CAA20067C1DF /* StutterDetector.mlmodel */,
+				F334AF862A0509310046C0EE /* StutterDetector.mlpackage */,
 				F3BC2D8129F7CAA20067C1DF /* StutterDetectorView.swift */,
 			);
 			path = VoiceRecognition;
@@ -7766,6 +7791,19 @@
 			dependencies = (
 			);
 			name = SpeechWorld;
+			packageProductDependencies = (
+				F334AF892A050ABF0046C0EE /* FirebaseAnalytics */,
+				F334AF8B2A050ABF0046C0EE /* FirebaseAnalyticsSwift */,
+				F334AF8D2A050ABF0046C0EE /* FirebaseAuth */,
+				F334AF8F2A050ABF0046C0EE /* FirebaseAuthCombine-Community */,
+				F334AF912A050ABF0046C0EE /* FirebaseDatabase */,
+				F334AF932A050ABF0046C0EE /* FirebaseDatabaseSwift */,
+				F334AF952A050ABF0046C0EE /* FirebaseFirestore */,
+				F334AF972A050ABF0046C0EE /* FirebaseFirestoreCombine-Community */,
+				F334AF992A050ABF0046C0EE /* FirebaseFirestoreSwift */,
+				F334AF9B2A050ABF0046C0EE /* FirebaseStorage */,
+				F334AF9D2A050ABF0046C0EE /* FirebaseStorageCombine-Community */,
+			);
 			productName = Phonetics;
 			productReference = 2E584C031D04E79C003E3C87 /* SpeechWorld.app */;
 			productType = "com.apple.product-type.application";
@@ -7794,8 +7832,9 @@
 		2E584BFB1D04E79C003E3C87 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = "Nalinda Gamaarachchi";
 				TargetAttributes = {
 					2E584C021D04E79C003E3C87 = {
@@ -7821,6 +7860,9 @@
 				Base,
 			);
 			mainGroup = 2E584BFA1D04E79C003E3C87;
+			packageReferences = (
+				F334AF882A050ABF0046C0EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 2E584C041D04E79C003E3C87 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -7934,6 +7976,7 @@
 				2E4B04551EE115EC00834D45 /* skunk.jpg in Resources */,
 				2E146B841E46F15500BD6C2C /* puzzle-T-th-row0-col0.jpng in Resources */,
 				2E14686A1E46F15400BD6C2C /* puzzle-C-CR-spec.json in Resources */,
+				F334AF852A0507560046C0EE /* GoogleService-Info.plist in Resources */,
 				2E1464ED1E46F15400BD6C2C /* puzzle-S-SK-rhyme.mp3 in Resources */,
 				F3E8026629E03075007DBA53 /* Sentence.mp3 in Resources */,
 				2E1467EE1E46F15400BD6C2C /* puzzle-A-AY-row1-col2.jpng in Resources */,
@@ -10061,6 +10104,7 @@
 				2E6DE75F1D63A06900978DD6 /* PuzzlePiece.swift in Sources */,
 				2EBB18AC1ED2BCFB0078D951 /* SentencesViewController.swift in Sources */,
 				2E5B33AB1E21FB1C00E4B923 /* PuzzleCollectionViewController.swift in Sources */,
+				F334AF872A0509310046C0EE /* StutterDetector.mlpackage in Sources */,
 				2E6DE7541D639A1C00978DD6 /* InterativeGrowViewController.swift in Sources */,
 				2E482FC91EFF54A000A41012 /* BasicLabelView.swift in Sources */,
 				F3BC2D8829F7CAA30067C1DF /* StutterDetectorView.swift in Sources */,
@@ -10082,7 +10126,6 @@
 				2E482FCD1EFF5B2F00A41012 /* PigLatinViewController.swift in Sources */,
 				2E80484C1ED29DEA001F4EF6 /* SightWordsViewController.swift in Sources */,
 				2E6DE7531D639A1C00978DD6 /* HomeViewController.swift in Sources */,
-				F3BC2D8929F7CAA30067C1DF /* StutterDetector.mlmodel in Sources */,
 				2E0D53F61ED2670F00EF3706 /* SightWordsManager.swift in Sources */,
 				2E6DE7551D639A1C00978DD6 /* LettersViewController.swift in Sources */,
 				F3BC2D8B29F7CAA30067C1DF /* RecordView.swift in Sources */,
@@ -10155,6 +10198,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -10174,6 +10218,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -10198,7 +10243,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -10212,6 +10257,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -10231,6 +10277,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -10249,10 +10296,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -10269,8 +10317,11 @@
 				DEVELOPMENT_TEAM = Z2TMRX3MRV;
 				INFOPLIST_FILE = SpeechWorld/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hearatale.SpeechWorld;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nalinda.SpeechWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SpeechWorld/Shared Code/SpeechWorld-Bridging-Header.h";
@@ -10291,8 +10342,11 @@
 				DEVELOPMENT_TEAM = Z2TMRX3MRV;
 				INFOPLIST_FILE = SpeechWorld/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hearatale.SpeechWorld;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nalinda.SpeechWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SpeechWorld/Shared Code/SpeechWorld-Bridging-Header.h";
@@ -10308,7 +10362,12 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = CT648UDKHF;
 				INFOPLIST_FILE = SpeechWorldTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hearatale.SpeechWorldTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SpeechWorld/Shared Code/SpeechWorld-Bridging-Header.h";
@@ -10324,7 +10383,12 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = CT648UDKHF;
 				INFOPLIST_FILE = SpeechWorldTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hearatale.SpeechWorldTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SpeechWorld/Shared Code/SpeechWorld-Bridging-Header.h";
@@ -10365,6 +10429,75 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F334AF882A050ABF0046C0EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F334AF892A050ABF0046C0EE /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F334AF882A050ABF0046C0EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		F334AF8B2A050ABF0046C0EE /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F334AF882A050ABF0046C0EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		F334AF8D2A050ABF0046C0EE /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F334AF882A050ABF0046C0EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F334AF8F2A050ABF0046C0EE /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F334AF882A050ABF0046C0EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		F334AF912A050ABF0046C0EE /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F334AF882A050ABF0046C0EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		F334AF932A050ABF0046C0EE /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F334AF882A050ABF0046C0EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		F334AF952A050ABF0046C0EE /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F334AF882A050ABF0046C0EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F334AF972A050ABF0046C0EE /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F334AF882A050ABF0046C0EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		F334AF992A050ABF0046C0EE /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F334AF882A050ABF0046C0EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		F334AF9B2A050ABF0046C0EE /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F334AF882A050ABF0046C0EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		F334AF9D2A050ABF0046C0EE /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F334AF882A050ABF0046C0EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2E584BFB1D04E79C003E3C87 /* Project object */;
 }

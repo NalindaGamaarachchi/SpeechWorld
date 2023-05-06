@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>156495796674-damkfife5cup3f4lha2lfbq2anu8fk93.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.156495796674-damkfife5cup3f4lha2lfbq2anu8fk93</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAcRzXJnQ8ABWq28ZTIsRbg-QQRuX4W-G0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>156495796674</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nalinda.SpeechWorld</string>
+	<key>PROJECT_ID</key>
+	<string>speech-world</string>
+	<key>STORAGE_BUCKET</key>
+	<string>speech-world.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:156495796674:ios:d85640ab63872da3125e5b</string>
+	<key>DATABASE_URL</key>
+	<string>https://speech-world-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>

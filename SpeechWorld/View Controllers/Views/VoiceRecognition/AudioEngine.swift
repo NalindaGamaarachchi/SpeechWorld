@@ -37,7 +37,12 @@ class ResultsObserver: NSObject, SNResultsObserving {
 
 
         // Print the classification's name (label) with its confidence.
-        print("\(classification.identifier): \(percentString) confidence.\n")
+        if (classification.identifier == "NoStutteredWords") {
+            print("NaturalPause")
+        } else {
+            print(classification.identifier)
+        }
+        print(" \(percentString) confidence.")
         
         DispatchQueue.main.async {
             NotificationCenter.default.post(name: Notification.Name("StutterResult"), object: classification.identifier)
